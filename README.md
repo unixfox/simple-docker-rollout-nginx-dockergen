@@ -4,7 +4,7 @@ This is an example on how to use docker rollout ([https://github.com/wowu/docker
 
 I didn't want to write my NGINX config in docker labels ([nginx-proxy](https://github.com/nginx-proxy/nginx-proxy)), I wanted to keep using the flexibility of nginx.conf files.
 
-And using mounting the docker socket in a separate container (not the nginx webserver) is more secure.
+And mounting the docker socket in a separate container (not the nginx webserver) is more secure compared to mounting it in the NGINX docker container.
 
 ## How to use
 
